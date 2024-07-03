@@ -13,7 +13,7 @@
     bottom: 45px;
     z-index: 99;
 }
-
+ 
 .my-6 {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -81,7 +81,7 @@
 .navbar.fixed-top {
     display: none;
     transition: .5s;
-}
+} 
 
 .navbar .navbar-nav .nav-link {
     padding: 20px 15px;
@@ -427,4 +427,26 @@
 
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+ .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*max-height: 100vh;  Set maximum height to the viewport height */
+    
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
 }
