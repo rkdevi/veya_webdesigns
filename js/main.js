@@ -39,6 +39,8 @@
                 $('.navbar-nav .active').removeClass('active');
                 $(this).closest('a').addClass('active');
             }
+             // Close the mobile menu  // add by rk
+             $('.navbar-collapse').collapse('hide');
         }
     });
     
